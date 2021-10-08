@@ -430,9 +430,13 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E5%8D%9A%E5%AE%A2/">
+                                <span class="chip bg-color">博客</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
@@ -468,21 +472,69 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="道州民"><a class="markdownIt-Anchor" href="#道州民">#</a> 道州民</h1>
-<p><strong>道州民</strong>⑴</p>
-<p>美臣遇明主也</p>
-<p>道州民，多侏儒⑵，长者不过三尺余⑶。</p>
-<p>市作矮奴年进送⑷，号为道州任土贡⑸。</p>
-<p>任土贡，宁若斯？</p>
-<p>不闻使人生别离，老翁哭孙母哭儿！</p>
-<p>一自阳城来守郡⑹，不进矮奴频诏问⑺。</p>
-<p>城云臣按六典书⑻：任土贡有不贡无。</p>
-<p>道州水土所生者，只有矮民无矮奴。</p>
-<p>吾君感悟玺书下⑼，岁贡矮奴宜悉罢⑽。</p>
-<p>道州民，老者幼者何欣欣！</p>
-<p>父兄子弟始相保，从此得作良人身⑾。</p>
-<p>道州民，民到于今受其赐⑿，欲说使君先下泪⒀。</p>
-<p>仍恐儿孙忘使君⒁，生男多以阳为字⒂。</p>
+                <h2 id="git-安装"><a class="markdownIt-Anchor" href="#git-安装">#</a> Git 安装</h2>
+<p>若是不知道 Git 是什么的可以前往 <a target="_blank" rel="noopener" href="https://git-scm.com/">Git 官网</a>或 <pangu> </pangu><a target="_blank" rel="noopener" href="https://www.liaoxuefeng.com/wiki/896043488029600">Git 教程</a>了解</p>
+<p>下载地址：<a target="_blank" rel="noopener" href="https://git-scm.com/downloads">Git 官网下载</a></p>
+<p>安装完成后在命令行输入 <code>git --version</code> 验证 是否安装成功</p>
+<p><img src="https://cdn.jsdelivr.net/gh/xyhiacb/images/image-20210929171547848.png" alt="image-20210929171547848"></p>
+<pre class="line-numbers language-none"><code class="language-none">git config --global user.name &quot;你的用户名&quot;
+git config --global user.email &quot;你的邮箱&quot;</code></pre>
+<p>验证配置，出现配置项即成功</p>
+<pre class="line-numbers language-none"><code class="language-none">git config --list --global</code></pre>
+<h2 id="node-安装"><a class="markdownIt-Anchor" href="#node-安装">#</a> Node 安装</h2>
+<p>下载地址：Node <a target="_blank" rel="noopener" href="https://nodejs.org/zh-cn/download/">官网下载</a></p>
+<p>安装完成后在命令行输入<code>node -v</code>验证 是否安装成功</p>
+<p><img src="https://cdn.jsdelivr.net/gh/xyhiacb/images/image-20210929174608609.png" alt="image-20210929174608609"></p>
+<p>安装完成后建议修改 npm 镜像源 ——<a target="_blank" rel="noopener" href="https://segmentfault.com/a/1190000023314583">npm 更换国内源，解决 npm install 慢的问题</a></p>
+<pre class="line-numbers language-none"><code class="language-none">npm config set registry http:&#x2F;&#x2F;registry.npm.taobao.org</code></pre>
+<h2 id="hexo安装"><a class="markdownIt-Anchor" href="#hexo安装">#</a> Hexo 安装</h2>
+<p>参考 <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">hexo 官方文档</a></p>
+<p>安装过程建议使用 Git Bash 来操作</p>
+<p><strong>全局安装</strong></p>
+<pre class="line-numbers language-none"><code class="language-none">npm install -g hexo</code></pre>
+<p><strong>局部安装</strong></p>
+<pre class="line-numbers language-none"><code class="language-none">npm install hexo</code></pre>
+<h2 id="初始化项目"><a class="markdownIt-Anchor" href="#初始化项目">#</a> 初始化项目</h2>
+<p>在你想创建博客项目的文件路径打开 Git Bash</p>
+<p>不设置名称则默认在当前目录初始化</p>
+<pre class="line-numbers language-none"><code class="language-none">hexo init [MyBlog(项目名称)]</code></pre>
+<p>进入 MyBlog 目录（如果初始化在 MyBlog 目录下）</p>
+<pre class="line-numbers language-none"><code class="language-none">cd MyBlog</code></pre>
+<p>安装依赖</p>
+<pre class="line-numbers language-none"><code class="language-none">npm install</code></pre>
+<p>运行项目</p>
+<pre class="line-numbers language-none"><code class="language-none">hexo server</code></pre>
+<p><img src="https://cdn.jsdelivr.net/gh/xyhiacb/images/image-20210930091426539.png" alt="image-20210930091426539"></p>
+<p>访问该地址，成功显示页面即可</p>
+<h2 id="常用命令介绍"><a class="markdownIt-Anchor" href="#常用命令介绍">#</a> 常用命令介绍</h2>
+<p><strong>初始化项目</strong></p>
+<pre class="line-numbers language-none"><code class="language-none">hexo init [projectName]</code></pre>
+<p><strong>创建文章</strong></p>
+<pre class="line-numbers language-none"><code class="language-none">hexo new articleName</code></pre>
+<p><strong>清除缓存文件</strong></p>
+<pre class="line-numbers language-none"><code class="language-none">hexo clean</code></pre>
+<p>通常用于文章编写完或者修改删除后执行</p>
+<p><strong>生成静态文件</strong></p>
+<pre class="line-numbers language-none"><code class="language-none">hexo generate | hexo g </code></pre>
+<p>通常在清除缓存文件后执行</p>
+<p><strong>启动服务器</strong></p>
+<pre class="line-numbers language-none"><code class="language-none">hexo server | hexo s</code></pre>
+<p><strong>部署</strong></p>
+<pre class="line-numbers language-none"><code class="language-none">hexo deploy | hexo d</code></pre>
+<p>通常是配置了部署配置后使用（后文介绍）</p>
+<h2 id="github-创建仓库"><a class="markdownIt-Anchor" href="#github-创建仓库">#</a> Github 创建仓库</h2>
+<p>登录到 Github, 如果没有 Github 账号，请先注册</p>
+<p>点击 GitHub 中的 New repository 创建新仓库，仓库名应该为：<strong><a target="_blank" rel="noopener" href="http://xn--eqr924avxo.github.io">用户名.github.io</a></strong> 这个<strong>用户名</strong>使用你的 GitHub 帐号名称代替，这是固定写法，比如我的仓库名为：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/xyhiacb/images/image-20211008171512174.png" alt="image-20211008171512174"></p>
+<h2 id="域名配置"><a class="markdownIt-Anchor" href="#域名配置">#</a> 域名配置</h2>
+<p>参考：<a target="_blank" rel="noopener" href="https://segmentfault.com/a/1190000021979631">超级详细 Hexo+GitHub + 阿里云域名的博客搭建教程，新手也能轻松学会</a></p>
+<h2 id="搭建图床"><a class="markdownIt-Anchor" href="#搭建图床">#</a> 搭建图床</h2>
+<p>参考：<a target="_blank" rel="noopener" href="https://cloud.tencent.com/developer/article/1651601">使用 Picgo+GitHub+ jsDelivr 搭建 CDN 加速免费图床</a></p>
+<p>注意：现在新增的 GitHub 仓库默认分支可能是 main, 而不是 master, 请自行检查</p>
+<h2 id="主题"><a class="markdownIt-Anchor" href="#主题">#</a> 主题</h2>
+<p>参考：</p>
+<p><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/themes#scripts">Hexo 主题</a></p>
+<p><a target="_blank" rel="noopener" href="https://hexo.io/themes/">可选主题</a></p>
 
                 
             </div>
@@ -546,7 +598,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/%E5%8D%9A%E5%AE%A2/">
+                                    <span class="chip bg-color">博客</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -748,6 +804,14 @@
                 </div>
 
                 
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E5%8D%9A%E5%AE%A2/">
+                        <span class="chip bg-color">博客</span>
+                    </a>
+                    
+                </div>
+                
             </div>
         </div>
         
@@ -785,6 +849,14 @@
                     </div>
                 </div>
 
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E5%8D%9A%E5%AE%A2/">
+                        <span class="chip bg-color">博客</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -1201,6 +1273,6 @@ $(function () {
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
 
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginModelPath":"assets/","model":{"jsonPath":"/live2dw/assets/shizuku.model.json"},"display":{"position":"right","width":200,"height":400},"mobile":{"show":false},"rect":"opacity:0.7","log":false,"pluginJsPath":"lib/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginModelPath":"assets/","model":{"jsonPath":"/live2dw/assets/shizuku.model.json"},"display":{"position":"left","width":200,"height":400},"mobile":{"show":false},"rect":"opacity:0.7","log":false,"pluginJsPath":"lib/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
 
 </html>
