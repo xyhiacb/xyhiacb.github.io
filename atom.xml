@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-02-16T01:08:40.914Z</updated>
+  <updated>2022-02-16T01:34:54.504Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,14 +21,17 @@
     <link href="http://example.com/post/excel-xiao-ji-qiao.html"/>
     <id>http://example.com/post/excel-xiao-ji-qiao.html</id>
     <published>2022-02-16T01:09:24.972Z</published>
-    <updated>2022-02-16T01:08:40.914Z</updated>
+    <updated>2022-02-16T01:34:54.504Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;excel小技巧-如何在复制内容时保留表格列宽的格式&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#excel小技巧-如何在复制内容时保留表格列宽的格式&quot;&gt;#&lt;/a&gt; Excel 小技巧 -</summary>
+    <summary type="html">&lt;p&gt;title: Excel 小技巧 - 如何在复制内容时，保留表格列宽的格式&lt;br&gt;
+ date: 2021-09-23 16:32:25&lt;br&gt;
+tags: Excel 小技巧&lt;/p&gt;
+&lt;h3 id=&quot;问题如何在复制内容时保留表格列宽的格式&quot;&gt;&lt;a</summary>
         
       
     

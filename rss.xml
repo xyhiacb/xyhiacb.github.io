@@ -13,7 +13,9 @@
             <title></title>
             <link>http://example.com/post/excel-xiao-ji-qiao.html</link>
             <pubDate>Wed, 16 Feb 2022 09:09:24 +0800</pubDate>
-            <description><![CDATA[ &lt;h2 id=&#34;excel小技巧-如何在复制内容时保留表格列宽的格式&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#excel小技巧-如何在复制内容时保留表格列宽的格式&#34;&gt;#&lt;/a&gt; Excel 小技巧 - 如何在复制内容时，保留表格列宽的格式&lt;/h2&gt;
+            <description><![CDATA[ &lt;p&gt;title: Excel 小技巧 - 如何在复制内容时，保留表格列宽的格式&lt;br&gt;
+ date: 2021-09-23 16:32:25&lt;br&gt;
+tags: Excel 小技巧&lt;/p&gt;
 &lt;h3 id=&#34;问题如何在复制内容时保留表格列宽的格式&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#问题如何在复制内容时保留表格列宽的格式&#34;&gt;#&lt;/a&gt; 问题：如何在复制内容时，保留表格列宽的格式&lt;/h3&gt;
 &lt;p&gt;我们在使用 excel 的过程中常常会遇到这样的问题，复制粘贴的内容，列宽没有保留，每次重新布局很麻烦，如下图所示：&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/xyhiacb/images/image-20220208154430802.png&#34; alt=&#34;image-20220208154430802&#34;&gt;&lt;/p&gt;
