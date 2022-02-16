@@ -15,67 +15,94 @@
             <category>博客</category>
             <pubDate>Thu, 23 Sep 2021 16:32:25 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;toc-heading-1&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#git-安装&#34; target=&#34;_blank&#34;&gt;&lt;/a&gt; Git 安装&lt;/h2&gt;
+
 &lt;p&gt;若是不知道 Git 是什么的可以前往 &lt;a target=&#34;_blank&#34; rel=&#34;noopener&#34; href=&#34;https://git-scm.com/&#34;&gt;Git 官网&lt;/a&gt;或 &lt;pangu&gt; &lt;/pangu&gt;&lt;a target=&#34;_blank&#34; rel=&#34;noopener&#34; href=&#34;https://www.liaoxuefeng.com/wiki/896043488029600&#34;&gt;Git 教程&lt;/a&gt;了解&lt;/p&gt;
+
 &lt;p&gt;下载地址：&lt;a target=&#34;_blank&#34; rel=&#34;noopener&#34; href=&#34;https://git-scm.com/downloads&#34;&gt;Git 官网下载&lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;安装完成后在命令行输入 &lt;code&gt;git --version&lt;/code&gt; 验证 是否安装成功&lt;/p&gt;
+
 &lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/xyhiacb/images/image-20210929171547848.png&#34; alt=&#34;image-20210929171547848&#34;&gt;&lt;/p&gt;
 &lt;pre class=&#34;line-numbers language-none&#34;&gt;&lt;code class=&#34;language-none&#34;&gt;git config --global user.name &amp;quot;你的用户名&amp;quot;
 git config --global user.email &amp;quot;你的邮箱&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;验证配置，出现配置项即成功&lt;/p&gt;
 &lt;pre class=&#34;line-numbers language-none&#34;&gt;&lt;code class=&#34;language-none&#34;&gt;git config --list --global&lt;/code&gt;&lt;/pre&gt;
+
 &lt;h2 id=&#34;toc-heading-2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#node-安装&#34; target=&#34;_blank&#34;&gt;&lt;/a&gt; Node 安装&lt;/h2&gt;
+
 &lt;p&gt;下载地址：Node &lt;a href=&#34;https://nodejs.org/zh-cn/download/&#34;&gt;官网下载&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;安装完成后在命令行输入&lt;code&gt;node -v&lt;/code&gt;验证 是否安装成功&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/xyhiacb/images/image-20210929174608609.png&#34; alt=&#34;image-20210929174608609&#34;&gt;&lt;/p&gt;
 &lt;p&gt;安装完成后建议修改 npm 镜像源 ——&lt;a href=&#34;https://segmentfault.com/a/1190000023314583&#34;&gt;npm 更换国内源，解决 npm install 慢的问题&lt;/a&gt;&lt;/p&gt;
 &lt;pre class=&#34;line-numbers language-none&#34;&gt;&lt;code class=&#34;language-none&#34;&gt;npm config set registry http:&amp;#x2F;&amp;#x2F;registry.npm.taobao.org&lt;/code&gt;&lt;/pre&gt;
+
 &lt;h2 id=&#34;toc-heading-2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#hexo-安装&#34; target=&#34;_blank&#34;&gt;&lt;/a&gt; Hexo 安装&lt;/h2&gt;
+
 &lt;p&gt;参考 &lt;a href=&#34;https://hexo.io/zh-cn/&#34;&gt;hexo 官方文档&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;安装过程建议使用 Git Bash 来操作&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;全局安装&lt;/strong&gt;&lt;/p&gt;
 &lt;pre class=&#34;line-numbers language-none&#34;&gt;&lt;code class=&#34;language-none&#34;&gt;npm install -g hexo&lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;&lt;strong&gt;局部安装&lt;/strong&gt;&lt;/p&gt;
 &lt;pre class=&#34;line-numbers language-none&#34;&gt;&lt;code class=&#34;language-none&#34;&gt;npm install hexo&lt;/code&gt;&lt;/pre&gt;
+
 &lt;h2 id=&#34;toc-heading-4&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#初始化项目&#34; target=&#34;_blank&#34;&gt;&lt;/a&gt; 初始化项目&lt;/h2&gt;
+
 &lt;p&gt;在你想创建博客项目的文件路径打开 Git Bash&lt;/p&gt;
 &lt;p&gt;不设置名称则默认在当前目录初始化&lt;/p&gt;
 &lt;pre class=&#34;line-numbers language-none&#34;&gt;&lt;code class=&#34;language-none&#34;&gt;hexo init [MyBlog(项目名称)]&lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;进入 MyBlog 目录（如果初始化在 MyBlog 目录下）&lt;/p&gt;
 &lt;pre class=&#34;line-numbers language-none&#34;&gt;&lt;code class=&#34;language-none&#34;&gt;cd MyBlog&lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;安装依赖&lt;/p&gt;
 &lt;pre class=&#34;line-numbers language-none&#34;&gt;&lt;code class=&#34;language-none&#34;&gt;npm install&lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;运行项目&lt;/p&gt;
 &lt;pre class=&#34;line-numbers language-none&#34;&gt;&lt;code class=&#34;language-none&#34;&gt;hexo server&lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/xyhiacb/images/image-20210930091426539.png&#34; alt=&#34;image-20210930091426539&#34;&gt;&lt;/p&gt;
 &lt;p&gt;访问该地址，成功显示页面即可&lt;/p&gt;
 &lt;h2 id=&#34;toc-heading-5&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#常用命令介绍&#34; target=&#34;_blank&#34;&gt;&lt;/a&gt; 常用命令介绍&lt;/h2&gt;
+
 &lt;p&gt;&lt;strong&gt;初始化项目&lt;/strong&gt;&lt;/p&gt;
 &lt;pre class=&#34;line-numbers language-none&#34;&gt;&lt;code class=&#34;language-none&#34;&gt;hexo init [projectName]&lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;&lt;strong&gt;创建文章&lt;/strong&gt;&lt;/p&gt;
 &lt;pre class=&#34;line-numbers language-none&#34;&gt;&lt;code class=&#34;language-none&#34;&gt;hexo new articleName&lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;&lt;strong&gt;清除缓存文件&lt;/strong&gt;&lt;/p&gt;
 &lt;pre class=&#34;line-numbers language-none&#34;&gt;&lt;code class=&#34;language-none&#34;&gt;hexo clean&lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;通常用于文章编写完或者修改删除后执行&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;生成静态文件&lt;/strong&gt;&lt;/p&gt;
 &lt;pre class=&#34;line-numbers language-none&#34;&gt;&lt;code class=&#34;language-none&#34;&gt;hexo generate | hexo g &lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;通常在清除缓存文件后执行&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;启动服务器&lt;/strong&gt;&lt;/p&gt;
 &lt;pre class=&#34;line-numbers language-none&#34;&gt;&lt;code class=&#34;language-none&#34;&gt;hexo server | hexo s&lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;&lt;strong&gt;部署&lt;/strong&gt;&lt;/p&gt;
 &lt;pre class=&#34;line-numbers language-none&#34;&gt;&lt;code class=&#34;language-none&#34;&gt;hexo deploy | hexo d&lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;通常是配置了部署配置后使用（后文介绍）&lt;/p&gt;
 &lt;h2 id=&#34;toc-heading-6&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#github-创建仓库&#34; target=&#34;_blank&#34;&gt;&lt;/a&gt; Github 创建仓库&lt;/h2&gt;
-&lt;p&gt;登录到 Github, 如果没有 Github 账号，请先注册&lt;/p&gt;
-&lt;p&gt;点击 GitHub 中的 New repository 创建新仓库，仓库名应该为：&lt;strong&gt;&lt;a href=&#34;http://xn--eqr924avxo.github.io&#34;&gt;用户名.github.io&lt;/a&gt;&lt;/strong&gt; 这个&lt;strong&gt;用户名&lt;/strong&gt;使用你的 GitHub 帐号名称代替，这是固定写法，比如我的仓库名为：&lt;/p&gt;
+
+&lt;p&gt;登录到Github,如果没有Github账号，请先注册&lt;/p&gt;
+&lt;p&gt;点击GitHub中的New repository创建新仓库，仓库名应该为：&lt;strong&gt;用户名.github.io&lt;/strong&gt;这个&lt;strong&gt;用户名&lt;/strong&gt;使用你的GitHub帐号名称代替，这是固定写法，比如我的仓库名为：&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/xyhiacb/images/image-20211008171512174.png&#34; alt=&#34;image-20211008171512174&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;toc-heading-7&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#域名配置&#34; target=&#34;_blank&#34;&gt;&lt;/a&gt; 域名配置&lt;/h2&gt;
-&lt;p&gt;参考：&lt;a href=&#34;https://segmentfault.com/a/1190000021979631&#34;&gt;超级详细 Hexo+GitHub + 阿里云域名的博客搭建教程，新手也能轻松学会&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;参考：&lt;a href=&#34;https://segmentfault.com/a/1190000021979631&#34;&gt;超级详细Hexo+GitHub+阿里云域名的博客搭建教程，新手也能轻松学会&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;toc-heading-8&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#搭建图床&#34; target=&#34;_blank&#34;&gt;&lt;/a&gt; 搭建图床&lt;/h2&gt;
-&lt;p&gt;参考：&lt;a href=&#34;https://cloud.tencent.com/developer/article/1651601&#34;&gt;使用 Picgo+GitHub+ jsDelivr 搭建 CDN 加速免费图床&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;注意：现在新增的 GitHub 仓库默认分支可能是 main, 而不是 master, 请自行检查&lt;/p&gt;
+
+&lt;p&gt;参考：&lt;a href=&#34;https://cloud.tencent.com/developer/article/1651601&#34;&gt;使用Picgo+GitHub+ jsDelivr搭建CDN加速免费图床&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;注意：现在新增的GitHub仓库默认分支可能是main,而不是master,请自行检查&lt;/p&gt;
 &lt;h2 id=&#34;toc-heading-9&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#主题&#34; target=&#34;_blank&#34;&gt;&lt;/a&gt; 主题&lt;/h2&gt;
+
 &lt;p&gt;参考：&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://hexo.io/zh-cn/docs/themes#scripts&#34;&gt;Hexo 主题&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://hexo.io/zh-cn/docs/themes#scripts&#34;&gt;Hexo主题&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://hexo.io/themes/&#34;&gt;可选主题&lt;/a&gt;&lt;/p&gt;
  ]]></description>
         </item>
