@@ -5,6 +5,14 @@
     "home_page_url": "http://example.com",
     "items": [
         {
+            "id": "http://example.com/post/ce-shi.html",
+            "url": "http://example.com/post/ce-shi.html",
+            "title": "测试",
+            "date_published": "2022-02-16T08:33:30.000Z",
+            "content_html": "",
+            "tags": []
+        },
+        {
             "id": "http://example.com/post/excel-xiao-ji-qiao-1.html",
             "url": "http://example.com/post/excel-xiao-ji-qiao-1.html",
             "title": "Excel小技巧1-如何在复制内容时，保留表格列宽的格式",
