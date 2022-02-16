@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-10-12T08:56:03.407Z</updated>
+  <updated>2022-02-16T01:08:40.914Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/post/excel-xiao-ji-qiao.html"/>
+    <id>http://example.com/post/excel-xiao-ji-qiao.html</id>
+    <published>2022-02-16T01:09:24.972Z</published>
+    <updated>2022-02-16T01:08:40.914Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Excel小技巧-如何在复制内容时，保留表格列宽的格式&quot;&gt;&lt;a href=&quot;#Excel小技巧-如何在复制内容时，保留表格列宽的格式&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Github+Hexo搭建博客</title>

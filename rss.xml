@@ -5,9 +5,30 @@
         <link>http://example.com</link>
         <description>生活坏到一定程度就会好起来，因为它无法更坏。努力过后，才知道许多事情，坚持坚持，就过来了 --《龙猫》</description>
         <language>zh-CN</language>
-        <pubDate>Thu, 23 Sep 2021 16:32:25 +0800</pubDate>
-        <lastBuildDate>Thu, 23 Sep 2021 16:32:25 +0800</lastBuildDate>
+        <pubDate>Wed, 16 Feb 2022 09:09:24 +0800</pubDate>
+        <lastBuildDate>Wed, 16 Feb 2022 09:09:24 +0800</lastBuildDate>
         <category>博客</category>
+        <item>
+            <guid isPermalink="true">http://example.com/post/excel-xiao-ji-qiao.html</guid>
+            <title></title>
+            <link>http://example.com/post/excel-xiao-ji-qiao.html</link>
+            <pubDate>Wed, 16 Feb 2022 09:09:24 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;Excel小技巧-如何在复制内容时，保留表格列宽的格式&#34;&gt;&lt;a href=&#34;#Excel小技巧-如何在复制内容时，保留表格列宽的格式&#34; class=&#34;headerlink&#34; title=&#34;Excel小技巧-如何在复制内容时，保留表格列宽的格式&#34;&gt;&lt;/a&gt;Excel小技巧-如何在复制内容时，保留表格列宽的格式&lt;/h2&gt;&lt;h3 id=&#34;问题：如何在复制内容时，保留表格列宽的格式&#34;&gt;&lt;a href=&#34;#问题：如何在复制内容时，保留表格列宽的格式&#34; class=&#34;headerlink&#34; title=&#34;问题：如何在复制内容时，保留表格列宽的格式&#34;&gt;&lt;/a&gt;问题：如何在复制内容时，保留表格列宽的格式&lt;/h3&gt;&lt;p&gt;我们在使用excel的过程中常常会遇到这样的问题，复制粘贴的内容，列宽没有保留，每次重新布局很麻烦，如下图所示：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/xyhiacb/images/image-20220208154430802.png&#34; alt=&#34;image-20220208154430802&#34;&gt;&lt;/p&gt;
+&lt;p&gt;复制&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/xyhiacb/images/image-20220208154641642.png&#34; alt=&#34;image-20220208154641642&#34;&gt;&lt;/p&gt;
+&lt;p&gt;粘贴&lt;/p&gt;
+&lt;h3 id=&#34;解决办法：&#34;&gt;&lt;a href=&#34;#解决办法：&#34; class=&#34;headerlink&#34; title=&#34;解决办法：&#34;&gt;&lt;/a&gt;解决办法：&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;复制目标区域&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在另一表格中要粘贴的位置，选择性粘贴（右击单元格——选择性粘贴），粘贴列宽。【这一步相当于将表格的列宽复制过来，没有复制内容】&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/xyhiacb/images/image-20220208155338018.png&#34; alt=&#34;image-20220208155338018&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;将目标区域整行选择，例如在A1：E20，就把1——20行整行选择复制，在粘贴到另一表格的粘贴位置，即可。【这一步相当于将内容复制过来】&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://example.com/post/github-hexo-da-jian-bo-ke.html</guid>
             <title>Github+Hexo搭建博客</title>

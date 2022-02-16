@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title></title>
+      <link href="//post/excel-xiao-ji-qiao.html"/>
+      <url>//post/excel-xiao-ji-qiao.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="Excel小技巧-如何在复制内容时，保留表格列宽的格式"><a href="#Excel小技巧-如何在复制内容时，保留表格列宽的格式" class="headerlink" title="Excel小技巧-如何在复制内容时，保留表格列宽的格式"></a>Excel小技巧-如何在复制内容时，保留表格列宽的格式</h2><h3 id="问题：如何在复制内容时，保留表格列宽的格式"><a href="#问题：如何在复制内容时，保留表格列宽的格式" class="headerlink" title="问题：如何在复制内容时，保留表格列宽的格式"></a>问题：如何在复制内容时，保留表格列宽的格式</h3><p>我们在使用excel的过程中常常会遇到这样的问题，复制粘贴的内容，列宽没有保留，每次重新布局很麻烦，如下图所示：</p><p><img src="https://cdn.jsdelivr.net/gh/xyhiacb/images/image-20220208154430802.png" alt="image-20220208154430802"></p><p>复制</p><p><img src="https://cdn.jsdelivr.net/gh/xyhiacb/images/image-20220208154641642.png" alt="image-20220208154641642"></p><p>粘贴</p><h3 id="解决办法："><a href="#解决办法：" class="headerlink" title="解决办法："></a>解决办法：</h3><ol><li><p>复制目标区域</p></li><li><p>在另一表格中要粘贴的位置，选择性粘贴（右击单元格——选择性粘贴），粘贴列宽。【这一步相当于将表格的列宽复制过来，没有复制内容】</p><p><img src="https://cdn.jsdelivr.net/gh/xyhiacb/images/image-20220208155338018.png" alt="image-20220208155338018"></p></li><li><p>将目标区域整行选择，例如在A1：E20，就把1——20行整行选择复制，在粘贴到另一表格的粘贴位置，即可。【这一步相当于将内容复制过来】</p></li></ol>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Github+Hexo搭建博客</title>
       <link href="//post/github-hexo-da-jian-bo-ke.html"/>
       <url>//post/github-hexo-da-jian-bo-ke.html</url>
